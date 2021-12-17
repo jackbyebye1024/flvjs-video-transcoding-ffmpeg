@@ -4,6 +4,12 @@
 
 
 query().then(res=>{
+  //从数据库中查询出需要转码的设备
+  // element:{
+  //   http_port, 转码进程的推流端口
+  //   ws_port,   前端页面访问的端口
+  //   camera_ip  设备地址
+  // }
   res.forEach(element => {
     console.log(element);
     let config = {

@@ -2,7 +2,6 @@
   "name": "transcoding",
   "script": "./index.js",
   "cwd": "./",
-  "watch": ["bin"],
   "ignore_watch": ["node_modules", "logs", "public"],
   "error_file":"./logs/error.log",
   "out_file":"./logs/out.log",
